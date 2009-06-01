@@ -1,3 +1,5 @@
+" version 0.0.5
+
 set background=dark
 hi clear
 if exists("syntax_on")
@@ -6,7 +8,7 @@ endif
 let g:colors_name = "miko"
 
 hi Comment             ctermfg=209            " #220 lines that have been commented out
-hi Constant            ctermfg=220              " #215 'contstants', or integers placed outside of a string
+hi Constant            ctermfg=226              " #215 'contstants', or integers placed outside of a string
 hi LineNr              ctermfg=188 ctermbg=24   " foreground and background of line numbers
 hi StatusLine          ctermfg=24 ctermbg=188   " line at bottom of screen with filename, cursor position, etc...
 hi Statement           cterm=bold ctermfg=231   " if, else, etc...
